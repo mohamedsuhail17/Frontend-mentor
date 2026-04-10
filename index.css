@@ -109,5 +109,16 @@ th,td{
     padding: 1em 0;
 }
 
+/* Responsive */
+@media screen and (max-width: 850px) {
+    .container{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    margin: 0;
+    padding: 2em;
+    }
+}
+
 
 
