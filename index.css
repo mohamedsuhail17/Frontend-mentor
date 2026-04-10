@@ -1,0 +1,113 @@
+:root{
+    --gap: 2rem;
+}
+
+/* ------------*/
+/*     Reset   */
+/* ------------*/
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(33, 65%, 88%);
+    font-family: sans-serif;
+}
+
+.flex{
+    display: flex;
+    gap: var(--gap, 1rem);
+    flex-direction: column;
+}
+
+.grid{
+    display: grid;
+    gap: var(--gap, 1rem);
+}
+
+.container{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    margin: 4rem 17rem 4rem 17rem;
+    padding: 2em;
+}
+
+.image{
+    border-radius: 10px;
+    height: 90%;
+    width:100%;
+}
+
+.duration{
+    background-color: rgba(242, 221, 243,0.5);
+    border-radius: 10px;
+}
+
+/* TYPOGRAPHY */
+h1{
+    margin-bottom: 0.5em;
+}
+
+h2{
+    color:rgb(163, 71, 71);
+}
+
+h4{
+    color: rgb(156, 57, 199);
+}
+
+p{
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    line-height:1.3em;
+}
+
+span{
+    font-weight: bold;
+}
+
+ul{
+    padding: 1em;
+}
+
+ol{
+    padding: 1em;
+}
+
+li{
+    margin-inline: 1em;
+    line-height: 1.5em;
+}
+
+/* HORIZONTAL LINE */
+hr{
+    margin-top: 1em;
+    opacity: 0.3;
+}
+
+/* TABLE */
+table{
+    width:100%;
+}
+
+th{
+    font-weight: normal;
+}
+td{
+    font-weight: bold;
+    color: rgb(163, 71, 71);
+}
+
+th,td{
+    text-align: start;
+    border-bottom: 1px solid rgba(0, 0, 0,0.2);
+    padding: 1em 0;
+}
+
+
+
